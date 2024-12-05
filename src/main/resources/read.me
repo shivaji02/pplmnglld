@@ -1,0 +1,37 @@
+school-management/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   ├── schoolmanagement/
+│   │   │   │   │   ├── controllers/          # API endpoints
+│   │   │   │   │   │   ├── UserController.java
+│   │   │   │   │   │   ├── AttendanceController.java
+│   │   │   │   │   │   ├── NotificationController.java
+│   │   │   │   │   ├── services/             # Business logic
+│   │   │   │   │   │   ├── UserService.java
+│   │   │   │   │   │   ├── AttendanceService.java
+│   │   │   │   │   │   ├── NotificationService.java
+│   │   │   │   │   ├── models/               # Domain models (entities)
+│   │   │   │   │   │   ├── User.java
+│   │   │   │   │   │   ├── Role.java
+│   │   │   │   │   │   ├── Attendance.java
+│   │   │   │   │   │   ├── Notification.java
+│   │   │   │   │   ├── repositories/         # Data access (DAO)
+│   │   │   │   │   │   ├── UserRepository.java
+│   │   │   │   │   │   ├── AttendanceRepository.java
+│   │   │   │   │   ├── config/               # Configuration files
+│   │   │   │   │   │   ├── AppConfig.java
+│   │   │   │   │   │   ├── SecurityConfig.java
+│   │   │   │   │   ├── exceptions/           # Custom exceptions
+│   │   │   │   │   │   ├── UserNotFoundException.java
+│   │   │   │   │   │   ├── GlobalExceptionHandler.java
+│   │   │   │   │   ├── utils/                # Utility classes
+│   │   │   │   │   │   ├── EmailSender.java
+│   │   │   │   │   │   ├── DateUtils.java
+│   │   │   │   │   ├── SchoolManagementApplication.java # Main class
+│   ├── resources/
+│   │   ├── application.properties            # Configuration
+│   │   ├── schema.sql                        # Database schema (optional)
+│   │   ├── data.sql                          # Initial data (optional)
+│   ├── test/                                 # Unit and integration tests
